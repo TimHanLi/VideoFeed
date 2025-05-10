@@ -36,6 +36,7 @@ class MainActivity : ComponentActivity() {
                 feedManager.addData(it)
             }
         }
+        viewModel.timManager = feedManager
         viewModel.getData()
 
         // 事件点击
@@ -43,16 +44,10 @@ class MainActivity : ComponentActivity() {
             viewModel.insert()
         }
         findViewById<Button>(R.id.remove).setOnClickListener {
-            viewModel.feedItems.value?.firstOrNull {
-                it.id == viewModel.curPlayId
-            }?.let {
-                feedManager.removeItem(it)
-            }
+            viewModel.remove()
         }
         findViewById<Button>(R.id.changeCur).setOnClickListener {
-            val businessItem = viewModel.curBusinessItemData.value
-            businessItem?.title = "changeTitle"
-            viewModel.curBusinessItemData.value = businessItem
+            viewModel.changeCur()
         }
     }
 

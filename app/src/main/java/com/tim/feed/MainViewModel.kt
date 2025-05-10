@@ -4,6 +4,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.tim.feed.data.BusinessItem
 import com.video.feed.data.TimData
+import com.video.feed.manager.TimManager
 import java.util.UUID
 import java.util.concurrent.ConcurrentHashMap
 
@@ -34,6 +35,8 @@ class MainViewModel: ViewModel() {
      * 挂载的条目是FeedItemData，内部仅封装了id和type，所以数据改变无法使用recyclerview notify
      */
     var curBusinessItemData = MutableLiveData<BusinessItem>()
+
+    var timManager: TimManager? = null
 
     val videoProgress = MutableLiveData<Int>()
     val videoDuration = MutableLiveData<Int>()
@@ -86,6 +89,22 @@ class MainViewModel: ViewModel() {
         }
     }
 
+
+    fun remove() {
+        feedItems.value?.firstOrNull {
+            it.id == curPlayId
+        }?.let {
+            feedItems.value?.remove(it)
+            timManager?.removeItem(it)
+        }
+    }
+
+    fun changeCur() {
+        val businessItem = curBusinessItemData.value
+        businessItem?.title = "changeTitle"
+        curBusinessItemData.value = businessItem
+    }
+
     /**
      * 根据feeditem获取businessitem
      */
@@ -93,4 +112,5 @@ class MainViewModel: ViewModel() {
 
     private fun createBusinessItemWithUuid(type: Int, title: String, path: String) =
         BusinessItem("${UUID.randomUUID()}:$title", type, title, path)
+
 }
