@@ -2,6 +2,8 @@ TimManager负责封装ViewPager2；
 addTimLayer添加每个itemview展示的图层；
 onCreateLayer()创建图层；
 addData(list: MutableList<TimData>) 添加数据；
+    
+
     private val timManager: TimManager by lazy(LazyThreadSafetyMode.NONE) {
         TimManager().apply {
             // 视频播放层
@@ -13,5 +15,4 @@ addData(list: MutableList<TimData>) 添加数据；
             setVp2(findViewById(R.id.vp2))
         }
     }
-
     timManager.onCreateLayer()
