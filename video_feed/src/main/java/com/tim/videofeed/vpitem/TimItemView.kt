@@ -1,16 +1,16 @@
-package com.video.feed.vpitem
+package com.tim.videofeed.vpitem
 
 import android.content.Context
 import android.util.AttributeSet
 import android.util.SparseArray
 import android.widget.FrameLayout
-import com.video.feed.data.TimData
-import com.video.feed.layer.ITimLayer
-import com.video.feed.layout.ITimItemLayout
-import com.video.feed.manager.timLog
-import com.video.feed.manager.costTime
-import com.video.feed.manager.startTime
-import com.video.feed.manager.getVideoFeedCommonTag
+import com.tim.videofeed.data.TimData
+import com.tim.videofeed.layer.ITimLayer
+import com.tim.videofeed.layout.ITimItemLayout
+import com.tim.videofeed.manager.timLog
+import com.tim.videofeed.manager.costTime
+import com.tim.videofeed.manager.startTime
+import com.tim.videofeed.manager.getVideoFeedCommonTag
 
 inline fun <E> SparseArray<E>.forEach(action: (Int, E) -> Unit) {
     for (i in 0 until size()) {

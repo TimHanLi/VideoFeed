@@ -10,9 +10,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+//        maven { "https://jitpack.io" }
     }
 }
 
 rootProject.name = "VideoFeedApplication"
-include(":app",":lib_video_feed")
-
+include(":app",":video_feed")

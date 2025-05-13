@@ -60,7 +60,9 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     implementation("androidx.constraintlayout:constraintlayout:2.0.0")
     implementation("androidx.viewpager2:viewpager2:1.0.0")
-    implementation(project(mapOf("path" to ":lib_video_feed")))
+    implementation(project(mapOf("path" to ":video_feed")))
+
+//    implementation("com.github.TimHanLi:videofeed:1.0")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")

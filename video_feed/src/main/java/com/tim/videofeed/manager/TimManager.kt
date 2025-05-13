@@ -1,4 +1,4 @@
-package com.video.feed.manager
+package com.tim.videofeed.manager
 
 import android.os.SystemClock
 import android.util.Log
@@ -9,11 +9,11 @@ import androidx.viewpager2.widget.ViewPager2.OnPageChangeCallback
 import androidx.viewpager2.widget.ViewPager2.SCROLL_STATE_DRAGGING
 import androidx.viewpager2.widget.ViewPager2.SCROLL_STATE_IDLE
 import androidx.viewpager2.widget.ViewPager2.SCROLL_STATE_SETTLING
-import com.video.feed.data.TimData
-import com.video.feed.layer.ITimLayer
-import com.video.feed.vpitem.TimAdapter
-import com.video.feed.vpitem.TimItemView
-import com.video.feed.vpitem.TimViewHolder
+import com.tim.videofeed.data.TimData
+import com.tim.videofeed.layer.ITimLayer
+import com.tim.videofeed.vpitem.TimAdapter
+import com.tim.videofeed.vpitem.TimItemView
+import com.tim.videofeed.vpitem.TimViewHolder
 
 
 const val VIDEO_TIM_TAG = "VideoTimTag:"

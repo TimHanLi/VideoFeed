@@ -1,7 +1,7 @@
-package com.video.feed.layout
+package com.tim.videofeed.layout
 
 import android.view.View
-import com.video.feed.data.TimData
+import com.tim.videofeed.data.TimData
 
 /**
  * 条目级别Layout

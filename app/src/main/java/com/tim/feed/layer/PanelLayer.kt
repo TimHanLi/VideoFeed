@@ -8,8 +8,8 @@ import com.tim.feed.R
 import com.tim.feed.TYPE_VIDEO
 import com.tim.feed.layout.PlayProgressLayout
 import com.tim.feed.layout.TitleLayout
-import com.video.feed.layer.ITimLayer
-import com.video.feed.layout.ITimItemLayout
+import com.tim.videofeed.layer.ITimLayer
+import com.tim.videofeed.layout.ITimItemLayout
 
 class PanelLayer(val act: ComponentActivity): ITimLayer {
     override fun onCreateTimView(parent: FrameLayout, type: Int): View? {

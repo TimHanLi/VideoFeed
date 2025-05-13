@@ -3,8 +3,8 @@ package com.tim.feed
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.tim.feed.data.BusinessItem
-import com.video.feed.data.TimData
-import com.video.feed.manager.TimManager
+import com.tim.videofeed.data.TimData
+import com.tim.videofeed.manager.TimManager
 import java.util.UUID
 import java.util.concurrent.ConcurrentHashMap
 

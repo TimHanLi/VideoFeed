@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.tim.feed.layer.AdLayer
 import com.tim.feed.layer.PanelLayer
 import com.tim.feed.layer.VideoPlayLayer
-import com.video.feed.manager.TimManager
+import com.tim.videofeed.manager.TimManager
 
 class MainActivity : ComponentActivity() {
 

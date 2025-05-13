@@ -1,4 +1,4 @@
-package com.video.feed.vpitem
+package com.tim.videofeed.vpitem
 
 import android.util.SparseArray
 import android.view.ViewGroup
@@ -6,10 +6,10 @@ import android.view.ViewGroup.LayoutParams
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.video.feed.data.TimData
-import com.video.feed.layer.ITimLayer
-import com.video.feed.manager.timLog
-import com.video.feed.manager.getVideoFeedCommonTag
+import com.tim.videofeed.data.TimData
+import com.tim.videofeed.layer.ITimLayer
+import com.tim.videofeed.manager.timLog
+import com.tim.videofeed.manager.getVideoFeedCommonTag
 
 /**
  * feed流的adapter

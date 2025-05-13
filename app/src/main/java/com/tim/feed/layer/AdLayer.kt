@@ -7,8 +7,8 @@ import androidx.activity.ComponentActivity
 import com.tim.feed.R
 import com.tim.feed.TYPE_AD
 import com.tim.feed.layout.AdLayout
-import com.video.feed.layer.ITimLayer
-import com.video.feed.layout.ITimItemLayout
+import com.tim.videofeed.layer.ITimLayer
+import com.tim.videofeed.layout.ITimItemLayout
 
 class AdLayer(val act: ComponentActivity): ITimLayer {
     override fun onCreateTimView(parent: FrameLayout, type: Int): View? {

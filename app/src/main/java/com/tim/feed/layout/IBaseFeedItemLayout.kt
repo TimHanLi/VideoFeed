@@ -5,8 +5,8 @@ import androidx.activity.ComponentActivity
 import androidx.lifecycle.ViewModelProvider
 import com.tim.feed.MainViewModel
 import com.tim.feed.data.BusinessItem
-import com.video.feed.data.TimData
-import com.video.feed.layout.ITimItemLayout
+import com.tim.videofeed.data.TimData
+import com.tim.videofeed.layout.ITimItemLayout
 
 open class IBaseFeedItemLayout(val act: ComponentActivity): ITimItemLayout {
     protected var type: Int = 0

@@ -1,8 +1,8 @@
-package com.video.feed.layer
+package com.tim.videofeed.layer
 
 import android.view.View
 import android.widget.FrameLayout
-import com.video.feed.layout.ITimItemLayout
+import com.tim.videofeed.layout.ITimItemLayout
 
 interface ITimLayer {
     fun onCreateTimView(parent: FrameLayout, type: Int): View?

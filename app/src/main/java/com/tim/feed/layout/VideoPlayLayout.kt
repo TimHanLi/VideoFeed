@@ -12,7 +12,7 @@ import android.view.ViewGroup
 import androidx.activity.ComponentActivity
 import com.tim.feed.R
 import com.tim.feed.util.LoopHandler
-import com.video.feed.data.TimData
+import com.tim.videofeed.data.TimData
 
 private const val TAG = "VideoPlayLayout"
 

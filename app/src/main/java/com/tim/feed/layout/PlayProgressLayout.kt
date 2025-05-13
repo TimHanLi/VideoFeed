@@ -6,7 +6,7 @@ import android.widget.SeekBar
 import androidx.activity.ComponentActivity
 import androidx.lifecycle.Observer
 import com.tim.feed.R
-import com.video.feed.data.TimData
+import com.tim.videofeed.data.TimData
 
 private const val TAG = "PlayProgressLayout"
 

@@ -1,6 +1,7 @@
-package com.video.feed.vpitem
+package com.tim.videofeed.vpitem
 
 import androidx.recyclerview.widget.RecyclerView
+import com.tim.videofeed.vpitem.TimItemView
 
 /**
  * viewholder

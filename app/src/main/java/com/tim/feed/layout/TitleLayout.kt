@@ -6,7 +6,7 @@ import androidx.activity.ComponentActivity
 import androidx.lifecycle.Observer
 import com.tim.feed.R
 import com.tim.feed.data.BusinessItem
-import com.video.feed.data.TimData
+import com.tim.videofeed.data.TimData
 
 class TitleLayout(val activity: ComponentActivity): IBaseFeedItemLayout(activity) {
 

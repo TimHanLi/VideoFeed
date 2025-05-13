@@ -1,4 +1,4 @@
-package com.video.feed.data
+package com.tim.videofeed.data
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
