@@ -6,24 +6,7 @@ maven("https://jitpack.io")
 implementation("com.github.TimHanLi:VideoFeed:最新版本")
 
 3、使用
-private val feedManager: TimManager by lazy(LazyThreadSafetyMode.NONE) {
-    TimManager().apply {
-        // 视频播放层
-        addTimLayer(VideoPlayLayer(this@MainActivity))
-        // 操作面板层
-        addTimLayer(PanelLayer(this@MainActivity))
-        // 广告层
-        addTimLayer(AdLayer(this@MainActivity))
-        // 设置viewpager2
-        setVp2(findViewById(R.id.vp2))
-    }
-}
-
-4、创建feed流
-feedManager.onCreateLayer()
-
-5、更新数据
-feedManager.addData(it)
+https://juejin.cn/post/7503762089238102025
 
 
 
