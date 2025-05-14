@@ -19,10 +19,6 @@ private val feedManager: TimManager by lazy(LazyThreadSafetyMode.NONE) {
     }
 }
 
-VideoPlayLayer、PanelLayer、AdLayer均由业务自己控制实现，例如
-<img width="882" alt="image" src="https://github.com/user-attachments/assets/14980077-253a-4d59-be4c-44952d3f768f" />
-
-
 4、创建feed流
 feedManager.onCreateLayer()
 
