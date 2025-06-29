@@ -32,9 +32,9 @@ Feed流-viewpager2设置
 
 图层layer  
 demo中广告层和其他图层是互斥的，demo中根据type进行了判断，例如  
-广告层 image.png   
+广告层   
 ![image](https://github.com/TimHanLi/VideoFeed/blob/main/image/layer.jpg)
-操作面板层 image.png  
+操作面板层  
 ![image](https://github.com/TimHanLi/VideoFeed/blob/main/image/panel.jpg)
-播放层 image.png  
+播放层   
 ![image](https://github.com/TimHanLi/VideoFeed/blob/main/image/%E6%92%AD%E6%94%BE.jpg)
