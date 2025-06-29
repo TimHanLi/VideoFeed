@@ -12,7 +12,7 @@
 笔者选择了第三个方案
 
 api使用说明
-WechatIMG23.jpg
+![image](https://github.com/TimHanLi/VideoFeed/blob/main/image/%E6%9E%B6%E6%9E%84.jpg)
 
 Feed流：使用ViewPager2实现
 Page：TimItemView，条目view，每个itemview上都可以承载n层layer
@@ -27,11 +27,16 @@ VideoFeed用不到1000行代码实现了Feed流；有以下优势
 扩展性强，VideoFeed仅仅是帮我们实现Feeds，不关心具体业务
 播放器数量，在Video播放layout中，可复用一个播放器或者使用多个播放器，均没有问题
 具体使用：
-Feed流-viewpager2设置 image.png
+Feed流-viewpager2设置 
+![image](https://github.com/TimHanLi/VideoFeed/blob/main/image/%E5%85%B7%E4%BD%93%E4%BD%BF%E7%94%A8.jpg)
 
 图层layer
 demo中广告层和其他图层是互斥的，demo中根据type进行了判断，例如
-广告层 image.png 操作面板层 image.png 播放层 image.png
+广告层 image.png 
+![image](https://github.com/TimHanLi/VideoFeed/blob/main/image/layer.jpg)
+操作面板层 image.png
+播放层 image.png
+![image](https://github.com/TimHanLi/VideoFeed/blob/main/image/%E6%92%AD%E6%94%BE.jpg)
 
 业务实现层
 例如：PlayProgressLayout更新进度的Layout，可以看出它仅仅负责自己单一的进度任务就可以，与其他播放、title等全部是解偶的
